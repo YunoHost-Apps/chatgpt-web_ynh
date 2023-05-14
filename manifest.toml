@@ -40,6 +40,8 @@ ram.runtime = "50M"
         [resources.sources.main]
         url = "https://github.com/Niek/chatgpt-web/archive/afe42b883ad094cefc86161b652cb8787a9c70b4.tar.gz"
         sha256 = "68e6c5891cd99b6703800038b2aaedadb249cfbf7af0e50884b69aded71a72cd"
+        autoupdate.upstream = "https://github.com/Niek/chatgpt-web"
+        autoupdate.strategy = "latest_github_commit"
 
     [resources.system_user]
 
