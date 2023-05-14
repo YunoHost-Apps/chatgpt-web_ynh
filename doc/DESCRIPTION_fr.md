@@ -1,1 +1,1 @@
-Ceci est une fausse description des fonctionalités de l'app
+ChatGPT-web est une simple interface Web d'une page pour l'API OpenAI ChatGPT. Pour l'utiliser, vous devez d'abord vous inscrire à une clé API OpenAI. Tous les messages sont stockés dans le stockage local de votre navigateur, donc tout est privé. Vous pouvez également fermer l'onglet du navigateur et revenir plus tard pour poursuivre la conversation.
