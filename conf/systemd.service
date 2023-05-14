@@ -9,7 +9,7 @@ Group=__APP__
 WorkingDirectory=__INSTALL_DIR__/
 Environment="PATH=__ENV_PATH__"
 Environment="NODE_ENV=production"
-ExecStart=__YNH_NPM__ start
+ExecStart=__YNH_NPM__ run build
 Restart=on-failure
 RestartSec=5
 StartLimitInterval=60s
