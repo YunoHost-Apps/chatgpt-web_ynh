@@ -34,8 +34,6 @@ ynh_script_progression --message="Upgrading system configurations related to $ap
 
 ynh_add_nginx_config
 
-yunohost service add $app --description="ChatGPT web interface" --log="/var/log/$app/$app.log"
-
 pushd "$install_dir"
 	ynh_use_nodejs
 	ynh_exec_warn_less sudo -u $app env $ynh_node_load_PATH npm ci
