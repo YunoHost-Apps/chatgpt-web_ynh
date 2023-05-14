@@ -37,7 +37,7 @@ ChatGPT-web is a simple one-page web interface to the OpenAI ChatGPT API. To use
 
 ## Screenshots
 
-![Screenshot of chatGPT-web](./doc/screenshots/example.jpg)
+![Screenshot of chatGPT-web](./doc/screenshots/screenshot.png)
 
 ## Documentation and resources
 
