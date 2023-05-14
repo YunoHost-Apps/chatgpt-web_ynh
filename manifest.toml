@@ -11,8 +11,8 @@ maintainers = ["eric_G"]
 
 [upstream]
 license = "GPL-3.0"
-website = "niek.github.io/chatgpt-web/"
-demo = "niek.github.io/chatgpt-web/"
+website = "https://niek.github.io/chatgpt-web/"
+demo = "https://niek.github.io/chatgpt-web/"
 code = "https://github.com/Niek/chatgpt-web"
 
 [integration]
