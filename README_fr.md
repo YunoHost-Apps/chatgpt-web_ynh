@@ -20,15 +20,15 @@ ChatGPT-web est une simple interface Web d'une page pour l'API OpenAI ChatGPT. P
 
 **Version incluse :** 2023.05.14~ynh1
 
-**Démo :** niek.github.io/chatgpt-web/
+**Démo :** https://niek.github.io/chatgpt-web/
 
 ## Captures d’écran
 
-![Capture d’écran de chatGPT-web](./doc/screenshots/example.jpg)
+![Capture d’écran de chatGPT-web](./doc/screenshots/screenshot.png)
 
 ## Documentations et ressources
 
-* Site officiel de l’app : <niek.github.io/chatgpt-web/>
+* Site officiel de l’app : <https://niek.github.io/chatgpt-web/>
 * Dépôt de code officiel de l’app : <https://github.com/Niek/chatgpt-web>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_chatgpt-web>
 * Signaler un bug : <https://github.com/YunoHost-Apps/chatgpt-web_ynh/issues>
