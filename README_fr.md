@@ -18,13 +18,17 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ChatGPT-web est une simple interface Web d'une page pour l'API OpenAI ChatGPT. Pour l'utiliser, vous devez d'abord vous inscrire à une clé API OpenAI. Tous les messages sont stockés dans le stockage local de votre navigateur, donc tout est privé. Vous pouvez également fermer l'onglet du navigateur et revenir plus tard pour poursuivre la conversation.
 
-**Version incluse :** 2023.05.14~ynh1
+**Version incluse :** 2023.05.22~ynh1
 
 **Démo :** https://niek.github.io/chatgpt-web/
 
 ## Captures d’écran
 
 ![Capture d’écran de chatGPT-web](./doc/screenshots/screenshot.png)
+
+## :red_circle: Fonctions indésirables
+
+- **Non-free Network Services**: Promotes or depends entirely on a non-free network service.
 
 ## Documentations et ressources
 
