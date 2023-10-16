@@ -5,7 +5,7 @@ name = "chatGPT-web"
 description.en = "ChatGPT web interface using the OpenAI API"
 description.fr = "Interface Web ChatGPT utilisant l'API OpenAI"
 
-version = "2023.10.12~ynh1"
+version = "2023.10.16~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -38,8 +38,8 @@ ram.runtime = "50M"
     [resources.sources]
 
         [resources.sources.main]
-        url = "https://github.com/Niek/chatgpt-web/archive/0abd06b522ac114f1b4fb99e9b9a98f6c8a4c76c.tar.gz"
-        sha256 = "d594788a631f4b2c3df0500b6abe67e92daeaee680b8b68d8e46786754448441"
+        url = "https://github.com/Niek/chatgpt-web/archive/7d4eaeaeeeb0913c259950fae07c8c5cd23547e7.tar.gz"
+        sha256 = "4b83f0afc426c48f560c94c0b4af549816d95251cee5d8dcf7feafd258d755ce"
         autoupdate.upstream = "https://github.com/Niek/chatgpt-web"
         autoupdate.strategy = "latest_github_commit"
 
