@@ -31,7 +31,7 @@ ChatGPT-web is a simple one-page web interface to the OpenAI ChatGPT API. To use
 - Code: ChatGPT-web recognizes and highlights code blocks and allows you to copy them with one click.
 
 
-**Shipped version:** 2024.01.01~ynh1
+**Shipped version:** 2024.01.08~ynh1
 
 **Demo:** https://niek.github.io/chatgpt-web/
 
