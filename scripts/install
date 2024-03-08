@@ -26,6 +26,11 @@ ynh_script_progression --message="Setting up source files..." --weight=1
 # Download, check integrity, uncompress and patch the source from app.src
 ynh_setup_source --dest_dir="$install_dir"
 
+if [ $api_key != "" ]
+then 
+    ynh_replace_string --match_string="$: apiKey = $apiKeyStorage" --replace_string='$: apiKey = $apiKeyStorage'/n'setOpenAI({apiKey : "'$api_key'"})'/n --target_file=$install_dir/src/lib/Home.svelte
+fi
+
 chown -R $app:www-data "$install_dir"
 
 #=================================================
