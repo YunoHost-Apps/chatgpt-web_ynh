@@ -1,0 +1,67 @@
+
+## Config panel are available from webadmin > Apps > YOUR_APP > Config Panel Button
+## Those panels let user configure some params on their apps using a friendly interface,
+## and remove the need to manually edit files from the command line.
+ 
+## From a packager perspective, this .toml is coupled to the scripts/config script,
+## which may be used to define custom getters/setters. However, most use cases
+## should be covered automagically by the core, thus it may not be necessary
+## to define a scripts/config at all!
+ 
+## -----------------------------------------------------------------------------
+## IMPORTANT: In accordance with YunoHost's spirit, please keep things simple and 
+## do not overwhelm the admin with tons of misunderstandable or advanced settings.
+## -----------------------------------------------------------------------------
+
+## The top level describe the entire config panels screen.
+
+## The version is a required property. 
+## Here a small reminder to associate config panel version with YunoHost version
+## | Config | YNH    | Config panel small change log                           |
+## | ------ | ---    | ------------------------------------------------------- |
+## | 0.1    | 3.x    | 0.1 config script not compatible with YNH >= 4.3        |
+## | 1.0    | 4.3.x  | The new config panel system with 'bind' property        |
+version = "1.0"
+
+## (optional) i18n property let you internationalize questions, however this feature 
+## is only available in core configuration panel (like yunohost domain config).
+## So in app config panel this key is ignored for now, but you can internationalize
+## by using a lang dictionary (see property name bellow)
+# i18n = "prefix_translation_key"
+
+################################################################################
+#### ABOUT PANELS
+################################################################################
+
+## The next level describes web admin panels
+## You have to choose an ID for each panel, in this example the ID is "main"
+## Keep in mind this ID will be used in CLI to refer to your question, so choose
+## something short and meaningfull.
+## In the webadmin, each panel corresponds to a distinct tab / form
+[main]
+
+## Define the label for your panel
+## Internationalization works similarly to the 'description' and 'ask' questions in the manifest
+# name.en = "Main configuration"
+# name.fr = "Configuration principale"
+
+## (optional) If you need to trigger a service reload-or-restart after the user
+## change a question in this panel, you can add your service in the list.
+services = ["__APP__"]
+# or services = ["nginx", "__APP__"] to also reload-or-restart nginx
+
+## (optional) This help properties is a short help displayed on the same line
+## than the panel title but not displayed in the tab.
+# help = ""
+    
+    [main.api]
+    name = "API config"
+    optional = false
+
+        [main.api.key]
+        ask = "Secret key"
+        type = "string"
+        redact = true
+        help = "Indicate here the ChatGPT secret key"
+        bind = "api_key:__INSTALL_DIR__/src/lib/Home.svelte"
+        
