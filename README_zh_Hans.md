@@ -3,7 +3,7 @@
 请勿手动编辑。
 -->
 
-# YunoHost 的 chatGPT-web
+# YunoHost 上的 chatGPT-web
 
 [![集成程度](https://dash.yunohost.org/integration/chatgpt-web.svg)](https://dash.yunohost.org/appci/app/chatgpt-web) ![工作状态](https://ci-apps.yunohost.org/ci/badges/chatgpt-web.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/chatgpt-web.maintain.svg)
 
@@ -31,7 +31,7 @@ ChatGPT-web is a simple one-page web interface to the OpenAI ChatGPT API. To use
 - Code: ChatGPT-web recognizes and highlights code blocks and allows you to copy them with one click.
 
 
-**分发版本：** 2024.04.29~ynh1
+**分发版本：** 2024.05.06~ynh1
 
 **演示：** <https://niek.github.io/chatgpt-web/>
 
