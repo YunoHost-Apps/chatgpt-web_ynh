@@ -5,7 +5,7 @@ Il NE doit PAS être modifié à la main.
 
 # chatGPT-web pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/chatgpt-web.svg)](https://dash.yunohost.org/appci/app/chatgpt-web) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/chatgpt-web.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/chatgpt-web.maintain.svg)
+[![Niveau d’intégration](https://dash.yunohost.org/integration/chatgpt-web.svg)](https://ci-apps.yunohost.org/ci/apps/chatgpt-web/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/chatgpt-web.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/chatgpt-web.maintain.svg)
 
 [![Installer chatGPT-web avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=chatgpt-web)
 
@@ -18,7 +18,7 @@ Il NE doit PAS être modifié à la main.
 
 ChatGPT-web est une simple interface Web d'une page pour l'API OpenAI ChatGPT. Pour l'utiliser, vous devez d'abord vous inscrire à une clé API OpenAI. Tous les messages sont stockés dans le stockage local de votre navigateur, donc tout est privé. Vous pouvez également fermer l'onglet du navigateur et revenir plus tard pour poursuivre la conversation.
 
-**Version incluse :** 2024.06.24~ynh1
+**Version incluse :** 2024.07.01~ynh1
 
 **Démo :** <https://niek.github.io/chatgpt-web/>
 
