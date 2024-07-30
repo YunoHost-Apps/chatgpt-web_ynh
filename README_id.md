@@ -31,7 +31,7 @@ ChatGPT-web is a simple one-page web interface to the OpenAI ChatGPT API. To use
 - Code: ChatGPT-web recognizes and highlights code blocks and allows you to copy them with one click.
 
 
-**Versi terkirim:** 2024.07.18~ynh1
+**Versi terkirim:** 2024.07.22~ynh1
 
 **Demo:** <https://niek.github.io/chatgpt-web/>
 
@@ -46,7 +46,7 @@ ChatGPT-web is a simple one-page web interface to the OpenAI ChatGPT API. To use
 ## Dokumentasi dan sumber daya
 
 - Website aplikasi resmi: <https://niek.github.io/chatgpt-web/>
-- Repositori kode aplikasi hulu: <https://github.com/Niek/chatgpt-web>
+- Depot kode aplikasi hulu: <https://github.com/Niek/chatgpt-web>
 - Gudang YunoHost: <https://apps.yunohost.org/app/chatgpt-web>
 - Laporkan bug: <https://github.com/YunoHost-Apps/chatgpt-web_ynh/issues>
 
