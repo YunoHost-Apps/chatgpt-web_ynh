@@ -5,7 +5,9 @@
 
 # chatGPT-web для YunoHost
 
-[![Уровень интеграции](https://dash.yunohost.org/integration/chatgpt-web.svg)](https://ci-apps.yunohost.org/ci/apps/chatgpt-web/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/chatgpt-web.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/chatgpt-web.maintain.svg)
+[![Уровень интеграции](https://apps.yunohost.org/badge/integration/chatgpt-web)](https://ci-apps.yunohost.org/ci/apps/chatgpt-web/)
+![Состояние работы](https://apps.yunohost.org/badge/state/chatgpt-web)
+![Состояние сопровождения](https://apps.yunohost.org/badge/maintained/chatgpt-web)
 
 [![Установите chatGPT-web с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=chatgpt-web)
 
@@ -31,7 +33,7 @@ ChatGPT-web is a simple one-page web interface to the OpenAI ChatGPT API. To use
 - Code: ChatGPT-web recognizes and highlights code blocks and allows you to copy them with one click.
 
 
-**Поставляемая версия:** 2024.11.11~ynh1
+**Поставляемая версия:** 2024.11.18~ynh1
 
 **Демо-версия:** <https://niek.github.io/chatgpt-web/>
 
