@@ -20,7 +20,7 @@ Il NE doit PAS être modifié à la main.
 
 ChatGPT-web est une simple interface Web d'une page pour l'API OpenAI ChatGPT. Pour l'utiliser, vous devez d'abord vous inscrire à une clé API OpenAI. Tous les messages sont stockés dans le stockage local de votre navigateur, donc tout est privé. Vous pouvez également fermer l'onglet du navigateur et revenir plus tard pour poursuivre la conversation.
 
-**Version incluse :** 2024.12.02~ynh1
+**Version incluse :** 2025.01.22~ynh1
 
 **Démo :** <https://niek.github.io/chatgpt-web/>
 
