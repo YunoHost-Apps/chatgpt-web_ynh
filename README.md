@@ -4,7 +4,7 @@ It shall NOT be edited by hand.
 -->
 
 <h1>
-  <img src="https://raw.githubusercontent.com/YunoHost/apps/master/logos/chatgpt-web.png" width="32px" alt="Logo of chatGPT-web">
+  <img src="https://raw.githubusercontent.com/YunoHost/apps/main/logos/chatgpt-web.png" width="32px" alt="Logo of chatGPT-web">
   chatGPT-web, packaged for YunoHost
 </h1>
 
@@ -12,7 +12,7 @@ ChatGPT web interface using the OpenAI API
 
 [![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://niek.github.io/chatgpt-web/)
 [![App Demo](https://img.shields.io/badge/App_Demo-blue?style=for-the-badge)](https://niek.github.io/chatgpt-web/)
-![Version: 2025.04.07~ynh1](https://img.shields.io/badge/Version-2025.04.07~ynh1-rgba(0,150,0,1)?style=for-the-badge)
+[![Version: 2025.05.12~ynh1](https://img.shields.io/badge/Version-2025.05.12~ynh1-rgba(0,150,0,1)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/chatgpt-web/)
 
 <div align="center">
 <a href="https://apps.yunohost.org/app/chatgpt-web"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
