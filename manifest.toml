@@ -16,7 +16,7 @@ demo = "https://niek.github.io/chatgpt-web/"
 code = "https://github.com/Niek/chatgpt-web"
 
 [integration]
-yunohost = ">= 12.0.9"
+yunohost = ">= 12.1.17"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -57,3 +57,6 @@ ram.runtime = "50M"
 
     [resources.ports]
     main.default = 5174
+
+    [resources.nodejs]
+    version = "20"
