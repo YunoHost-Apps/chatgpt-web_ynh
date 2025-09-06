@@ -59,4 +59,4 @@ ram.runtime = "50M"
     main.default = 5174
 
     [resources.nodejs]
-    version = "20"
+    version = "22"
